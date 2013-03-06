@@ -240,6 +240,9 @@ call <SID>hi("markdownHeadingDelimiter",  s:gui0D, "", s:cterm0D, "", "")
 call <SID>hi("gitCommitOverflow",  s:gui08, "", s:cterm08, "", "")
 call <SID>hi("gitCommitSummary",   s:gui0B, "", s:cterm0B, "", "")
 
+" Reset SignColumn color
+highlight clear SignColumn
+
 " Remove Highlighting Function
 delf <SID>hi
 
